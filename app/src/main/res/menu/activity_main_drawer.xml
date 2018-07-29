@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorites" />
+        <item android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_email"
+            android:title="Inbox">
+
+        </item>
+
+    </group>
+
+    <item android:title="Settings and Reports">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feed back" />
+
+            <item android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings">
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="DASH BOARD">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_myschool"
+                    android:icon="@drawable/ic_myschool"
+                    android:title="My School">
+
+                </item>
+
+                <item android:id="@+id/nav_addschool"
+                    android:icon="@drawable/ic_addschool"
+                    android:title="Add School">
+
+                </item>
+
+                <item android:id="@+id/nav_guide"
+                    android:icon="@drawable/ic_guide"
+                    android:title="User Guide">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log out">
+
+    </item>
+
+</menu>
